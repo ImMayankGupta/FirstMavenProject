@@ -18,8 +18,8 @@ public class TestCase1 {
 		driver.findElement(By.name("q")).submit();
 		
 		
-		//driver.findElement(By.xpath("//h3[text()='New York City - Wikipedia']")).click();
-		driver.findElement(By.xpath("//h1[text()='esuifdgweiu']")).click();
+		driver.findElement(By.xpath("//h3[text()='New York City - Wikipedia']")).click();
+		//driver.findElement(By.xpath("//h1[text()='esuifdgweiu']")).click();
 		
 		driver.close();
 	}
